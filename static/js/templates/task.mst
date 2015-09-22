@@ -1,0 +1,13 @@
+<div class="task">
+	<div class="task-user">{{ user }}</div>
+	<div class="task-text">{{ text }}</div>
+	<div class="task-date">{{ date }}</div>
+	<div class="task-done">
+		{{#done}}
+			<i class="fa fa-check"></i>
+		{{/done}}
+		{{^done}}
+			<input type="checkbox" class="task-action-done">
+		{{/done}}
+	</div>
+</div>
