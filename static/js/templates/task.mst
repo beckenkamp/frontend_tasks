@@ -7,7 +7,7 @@
 			<i class="fa fa-check"></i>
 		{{/done}}
 		{{^done}}
-			<input type="checkbox" class="task-action-done">
+			<input type="checkbox" class="task-action-done" data-id="{{ task_id }}">
 		{{/done}}
 	</div>
 </div>
