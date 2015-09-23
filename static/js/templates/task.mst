@@ -1,13 +1,13 @@
-<div class="task">
-	<div class="task-user">{{ user }}</div>
-	<div class="task-text">{{ text }}</div>
-	<div class="task-date">{{ date }}</div>
-	<div class="task-done">
-		{{#done}}
-			<i class="fa fa-check"></i>
-		{{/done}}
-		{{^done}}
-			<input type="checkbox" class="task-action-done" data-id="{{ task_id }}">
-		{{/done}}
-	</div>
+<div class="task row">
+    <div class="task-user col-sm-2 text-center">{{ user }}</div>
+    <div class="task-text col-sm-6">{{ text }}</div>
+    <div class="task-date col-sm-3 text-center">{{ date }}</div>
+    <div class="task-done col-sm-1 text-center">
+        {{#done}}
+            <i class="fa fa-check"></i>
+        {{/done}}
+        {{^done}}
+            <input type="checkbox" class="task-action-done" data-id="{{ task_id }}">
+        {{/done}}
+    </div>
 </div>

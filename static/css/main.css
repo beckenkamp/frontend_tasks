@@ -1,0 +1,57 @@
+body {
+    padding: 50px;
+    background: #F3F5F6;
+}
+
+#task-form {
+    display: block;
+    margin: 50px;
+    background: #FAFBFC;
+}
+#task-form input {
+    width: 100%;
+    border: none;
+    height: 60px;
+    color: #5A6472;
+}
+#task-form button {
+    background-color: #00DABD;
+    border:1px solid #00DABD;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+#datetime {
+    width: 20% !important;
+    background-color: transparent;
+}
+
+.task {
+    margin: 0px 50px;
+    padding: 0;
+    background: #FFF !important;
+    border-bottom: 1px solid #EFEFEF;
+}
+.task div {
+    padding: 30px 0;
+    vertical-align: middle;
+}
+.task-text {
+    color: #818EA2;
+}
+.task-user {
+    color: #818EA2;
+    font-size: smaller;
+}
+.task-date {
+    text-transform: uppercase;
+    color: #818EA2;
+}
+.task-done {
+    background: #00DABD;
+    color: white;
+}
